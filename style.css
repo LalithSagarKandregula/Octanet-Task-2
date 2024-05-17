@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family:Poppins;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 5px solid #e0e0e0; /* Light gray border */
+}
+
+h1 {
+    text-align: center;
+    color: #722f2f; /* Light blue */
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-task {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: Light 300;  
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    flex-grow: 1;
+    background-color: #85858531; /* Light gray input background */
+}
+
+#add-task {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: Light 300; 
+    padding: 10px 20px;
+    background-color: #2d9389; /* Light green */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fafafa; /* Light gray background for list items */
+}
+
+#task-list li:nth-child(even) {
+    background-color: #f5f5f5; /* Alternate background color for even items */
+}
+
+#task-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#task-list li label {
+    flex-grow: 1;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#task-list li.completed label {
+    text-decoration: line-through;
+    color: #000000;
+}
+
+/* New CSS for Images */
+#task-list li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+body {
+    background-image: url("image.jpg");
+    background-repeat: no-repeat; /* Optional: controls how the image repeats */
+    background-position: center; /* Optional: controls image position */
+    background-size:auto; /* Optional: controls image size */
+}
+
+
+
+
